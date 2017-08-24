@@ -1,0 +1,45 @@
+.si-wrapper__nav{
+  bottom:0px;
+  height:30px;
+  position: absolute;
+  width: 100%;
+  z-index:11;
+
+  &__list{
+    margin: 0px auto;
+    width: 25%;
+  }
+
+  a, p {
+    color: #000000;
+    display: inline-block;
+  }
+
+  a{
+    color: #000000;
+    cursor: pointer;
+    font-size: 14px;
+    padding:0 2%;
+
+    &:hover{
+      color:#FFFFFF;
+    }
+
+    &.disabled{
+      cursor:text;
+      color: #C3c3c3;
+    }
+  }
+
+  p{
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  &.active{
+
+    a, p{
+      color: #3d3d3d;
+    }
+  }
+}

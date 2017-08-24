@@ -1,0 +1,18 @@
+//
+// Custom
+//
+
+.si-wrapper{
+  background-image: url(#{$base-path}/bg.png);
+  margin: 0px auto;
+  overflow: hidden;
+  position: relative;
+  @include size(1000px, 650px);
+
+  &__flipbook{
+    display: block;
+    margin: 28px auto 0px auto;
+    overflow: hidden;
+    z-index: 1;
+  }
+}

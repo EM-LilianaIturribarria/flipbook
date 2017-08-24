@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true,
+    "jasmine": true
+  },
+  "parser": "babel-eslint",
+  "extends": [
+    "xo-space/esnext"
+  ],
+  "rules" : {
+    "space-infix-ops": [0]
+  },
+  "globals": {
+    "angular": true,
+    "module": true,
+    "inject": true,
+    "ga": true,
+    "_": true,
+    "$": true,
+    "OriginExternalAPI": true,
+    "moment": true
+  }
+}

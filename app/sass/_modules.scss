@@ -1,0 +1,21 @@
+//
+// Modules
+//
+
+.v-spinner{
+  @include horizontal-align;
+  @include vertical-align;
+  z-index: 999;
+}
+
+canvas{
+  background: transparent;
+}
+
+// fix for videojs fullscreen
+.vjs-fullscreen{
+  border: none !important;
+  left: 0px !important;
+  position: absolute !important;
+  top: 0px !important;
+}

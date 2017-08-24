@@ -1,0 +1,44 @@
+.page{
+  background-repeat:no-repeat;
+  overflow: hidden;
+  position: relative;
+
+  &.even {
+    background-position: top left;
+  }
+
+  &.odd {
+    background-position: top right;
+  }
+
+  //content
+  .content{
+    //padding:5%;
+
+    p{
+      color:red;
+    }
+  }
+}
+
+//Pages
+
+.cover {
+  background-image: url(#{$base-path}/cover.png);
+}
+
+.p2, .p3{
+  background-image: url(#{$base-path}/page1-2.png);
+}
+
+.p4, .p5{
+  background-image: url(#{$base-path}/page3-4.png);
+}
+
+.p6, .p7{
+  background-image: url(#{$base-path}/page5-6.png);
+}
+
+.p8, .p9{
+  background-image: url(#{$base-path}/page7-8.png);
+}

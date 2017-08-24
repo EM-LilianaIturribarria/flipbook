@@ -1,0 +1,180 @@
+[
+
+  {
+    "ctas" : [
+      {
+        "url" : "http://staging.microsites.gorillanation.com/temp.html",
+        "title" : "Title 1"
+      }
+    ]
+  },
+
+  {
+    "ctas": [
+      {
+        "url" : "http://staging.microsites.gorillanation.com/temp.html",
+        "title" : "Title 1"
+      }
+    ],
+    "hotspots" : [
+      {
+        "title": "Secret Khali $49.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Papaya Yellow $39.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Kylie Khaki $79.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Allie Nude $79.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Strappy Bonne $99.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      }
+    ]
+  },
+
+  {
+    "ctas": [
+      {
+        "url" : "http://staging.microsites.gorillanation.com/temp.html",
+        "title" : "Title 1"
+      }
+    ],
+    "hotspots" : [
+      {
+        "title": "Secret Floral $49.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Kylie Floral $79.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Kylie Snake $79.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Lorri Fuchsia $99.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Strappy Cobalt $99.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Zoey Khaki $89.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      }
+    ]
+  },
+
+  {
+    "hotspots": [
+      {
+        "title": "Zoey Pink/Snake $89.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Bridgette-B Tan $89.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Gingerbread White $89.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Kylie Black/White $79.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Natalie Camel $89.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      }
+    ]
+  },
+
+  {
+
+  },
+
+  {
+    "hotspots": [
+      {
+        "title": "Bow Wow Red $49.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Nano-B Tan $79.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "City Cognac $39.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Nerro-B Tan $89.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Arnie Nude $79.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Straw Fedora Khaki $39.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      }
+    ]
+  },
+
+  {
+    "ctas": [
+      {
+        "url": "http://staging.microsites.gorillanation.com/temp.html",
+        "title": " Page 6 - Shop from our Instagram"
+      }
+    ]
+  },
+
+  {
+    "ctas": [
+      {
+        "url": "http://staging.microsites.gorillanation.com/temp.html",
+        "title": " Page 7 - Online Exclusive. 20% Off. Wanderlust"
+      }
+    ]
+  },
+
+  {
+    "hotspots": [
+      {
+        "title": "Crush Black $39,99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Wanderlust Peach $39.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Retro White/Black $79.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      },
+      {
+        "title": "Aqua Nude $79.99",
+        "href" : "http://staging.microsites.gorillanation.com/temp.html"
+      }
+    ],
+    "ctas": [
+      {
+        "url": "http://staging.microsites.gorillanation.com/temp.html",
+        "title": " Last Page, Betts.com.au Site"
+      }
+    ]
+  }
+]
