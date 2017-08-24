@@ -1,6 +1,6 @@
 import {EAtracker} from '../common/services/ea-tracker.service.js';
 import {GAtracker} from '../common/services/ga-tracker.service.js';
-import turn from '../lib/turn.js';
+import '../lib/turn.js';
 import bus from '../common/services/bus.service.js';
 
 const contexts = new WeakMap();
@@ -50,7 +50,6 @@ export default class FlipbookService {
           page,
           view: (view[0] - 1) + ' - ' + (view[1] - 1)
         };
-        console.log(data);
         GAtracker.record('View', 'pages_'+ view);
         bus.$emit('flipbook.turning', data);
       }
@@ -60,7 +59,6 @@ export default class FlipbookService {
 
   init() {
     const ctx = contexts.get(this);
-    console.log(turn);
     $(ctx.el).turn(ctx.options);
     return this;
   }

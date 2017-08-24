@@ -84,6 +84,7 @@
 
 <script>
   import bus from '../common/services/bus.service.js';
+  import OverlayService from './OverlayService.js';
 
   export default {
 
@@ -93,7 +94,8 @@
 
     data (){
       let vm = this;
-      console.log(vm);
+
+      console.log(OverlayService);
 
       return {
         mainZoom: false,
@@ -187,12 +189,12 @@
             vm.settings.rightControls.zoom = true;
           }
 
-          // overlay.open(img);
+          OverlayService.open(img);
         } else {
           vm.settings.leftControls.zoom = false;
           vm.settings.rightControls.zoom = false;
 
-          // overlay.close();
+          OverlayService.close();
         }
       }
     }

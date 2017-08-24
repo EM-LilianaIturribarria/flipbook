@@ -19,3 +19,40 @@ canvas{
   position: absolute !important;
   top: 0px !important;
 }
+
+// Overrides on Fancybox for Zoom
+.fancybox-overlay{
+  background:none !important;
+  z-index: 2 !important;
+}
+
+.fancybox-wrap{
+  @include box-shadow(-1px 5px 36px -1px rgba(0,0,0,0.59));
+  z-index: 2 !important;
+}
+
+.fancybox-overlay,
+.fancybox-wrap,
+.fancybox-skin,
+.fancybox-inner{
+  overflow: hidden !important;
+}
+
+.fancybox-wrap,
+.fancybox-skin,
+.fancybox-inner{
+  height:640px !important;
+}
+
+.fancybox-inner{
+    width: 700px !important;
+}
+
+.scrollable{
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 15px;
+    /* Increase this value for cross-browser compatibility */
+    width: 715px;
+}
